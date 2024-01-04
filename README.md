@@ -1,30 +1,35 @@
-# React + TypeScript + Vite
+# <img src="./src/images/logo.png" alt="HackNext Logo" width="200">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+HackNext is an interactive web platform that brings together participants, partners, and organizers, facilitating seamless post-hackathon development.
 
-Currently, two official plugins are available:
+This platform enables participants to showcase their hackathon projects, engage through reactions and comments, creating a social media-like experience curated specifically for hackathons. Also, HackNext offers personalized recommendations for upcoming hackathons and events tailored to participants' interests and skill sets, and facilitates the search for potential partners and funding essential to kickstarting participants' business.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 👉🏼 Demo
 
-## Expanding the ESLint configuration
+🌐 [Live Demo](https://wengcychan.github.io/hacknext/) : HackNext's Website
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+▶️ [Watch the Video](https://youtu.be/dKqXNFNgngc) : HackNext's design inspiration, key features and the impact it can bring
 
-- Configure the top-level `parserOptions` property like this:
+## 📸 Screenshots
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+![Screenshot Homepage](./screenshots/HomePage.png)
+<br>
+<br>
+![Screenshot Event Page](./screenshots/EventPage.png)
+<br>
+<br>
+![Screenshot Business Page](./screenshots/BusinessPage.png)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 🛠️ Technologies Used
+
+- React
+- TypeScript
+- HTML
+- CSS
+- Bootstrap
+
+## 🚀 Installation
+
+1. Clone the repository
+2. Install dependencies with `npm install`
+3. Run the development server with `npm run dev`
