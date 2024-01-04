@@ -28,7 +28,7 @@ const Navigation = () => {
     <Navbar.Collapse id="responsive-navbar-nav">
         <Nav>
           <Nav.Link href="#" as="span" className="px-3" onClick={handleNavClose}>
-            <Link to="/hacknext" className="text-decoration-none text-white">
+            <Link to="/" className="text-decoration-none text-white">
               Home
             </Link>
           </Nav.Link>

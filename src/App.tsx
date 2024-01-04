@@ -9,11 +9,11 @@ const App = () => {
 
   return (
     <div>
-      <Router>
+      <Router basename="/hacknext">
         <Navigation />
         <section className="container">
           <Routes>
-            <Route path="/hacknext" element={<HomePage/>} />
+            <Route path="/" element={<HomePage/>} />
             <Route path="/event" element={<EventPage/>} />
             <Route path="business" element={<BusinessPage />} />
             <Route path="*" element={<NoPage />}/>
