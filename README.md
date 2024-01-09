@@ -1,4 +1,4 @@
-# <img src="./src/images/logo.png" alt="HackNext Logo" width="200">
+# <img src="./src/assets/logo.png" alt="HackNext Logo" width="200">
 
 HackNext is an interactive web platform that brings together participants, partners, and organizers, facilitating seamless post-hackathon development.
 
