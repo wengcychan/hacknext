@@ -13,7 +13,7 @@ const Events = ({content, contentTitle, btnText}: {content: Event[], contentTitl
         <Col key={uuidv4()} xs={12} sm={6} md={3}>
           <div className="d-flex h-100">
             <Card className="w-100">
-              <Card.Img variant="top" src={img.src} alt={img.alt} />
+              <Card.Img variant="top" src={img.src} alt={img.alt} width="100%" height="195px"/>
               <Card.Body className="d-flex flex-column">
                 <Card.Title className="mx-2" style={{ fontSize: '18px' }}>{title}</Card.Title>
                 <Card.Text className="mx-2">{date}</Card.Text>
@@ -22,7 +22,7 @@ const Events = ({content, contentTitle, btnText}: {content: Event[], contentTitl
                   href={website}
                   target="_blank"
                   className="mt-auto mx-auto"
-                  style={{ width: '100px', fontSize: '14px' }}
+                  style={{ width: '150px', fontSize: '14px' }}
                 >
                   {btnText}
                 </Button>

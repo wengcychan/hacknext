@@ -9,7 +9,7 @@ const About = () => (
 		<Card>
 
 			<div style={{ backgroundColor: '#d2e2e9' }}>
-				<Card.Img variant="top" src={about.img.src} alt={about.img.alt} />
+				<Card.Img variant="top" src={about.img.src} alt={about.img.alt} width="100%" height="100%"/>
 				<div className="text-center mt-3 mb-4">
 					<Card.Title>{about.name}</Card.Title>
 					<Card.Text className="mb-0">{about.role}</Card.Text>

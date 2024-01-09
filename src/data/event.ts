@@ -1,11 +1,11 @@
 import { Event } from "../types";
-import Junction2023Img from "../images/hackathon/Junction2023.png";
-import SmartCitiesHackathonImg from "../images/hackathon/SmartCitiesHackathon.png";
-import ClimateChangeChallengeImg from "../images/hackathon/ClimateChangeChallenge.png";
-import LocationHackathonImg from "../images/hackathon/LocationHackathon.png";
-import CraftConferenceImg from "../images/conference/CraftConference.png"
-import UlemisteForumImg from "../images/conference/UlemisteForum.png"
-import SmartCityExpoImg from "../images/conference/SmartCityExpo.png"
+import Junction2023Img from "../assets/hackathon/Junction2023.png";
+import SmartCitiesHackathonImg from "../assets/hackathon/SmartCitiesHackathon.png";
+import ClimateChangeChallengeImg from "../assets/hackathon/ClimateChangeChallenge.png";
+import LocationHackathonImg from "../assets/hackathon/LocationHackathon.png";
+import CraftConferenceImg from "../assets/conference/CraftConference.png"
+import UlemisteForumImg from "../assets/conference/UlemisteForum.png"
+import SmartCityExpoImg from "../assets/conference/SmartCityExpo.png"
 
 export const expertises: string[] = ['Sustainability', 'Smart City', 'Geoinformatics'];
 

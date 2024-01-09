@@ -13,7 +13,10 @@
 
 :root {
   --bg: #F3F2EF;
+  --fg: #e3e3e3;
+  --hover-link: #fff;
 }
+
 
 html {
   scroll-behavior: smooth;
@@ -27,4 +30,19 @@ section {
 	padding-top: 1em;
   padding-bottom: 2em;
 }
+
+.nav-link {
+  color: var(--fg);
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--hover-link);
+}
+
+*:focus-visible {
+  outline: 1px solid;
+}
+
 

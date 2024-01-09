@@ -9,7 +9,7 @@ const PeopleList = ({ type, people }: { type: string, people: People[] }) => (
 		{people.map(person => 
 			<div key={uuidv4()} className="d-flex align-items-center">
 				<div>
-					<img src={person.img.src} alt={person.img.alt} width="50px" height="auto"/>
+					<img src={person.img.src} alt={person.img.alt} width="50px" height="50px"/>
 				</div>
 				<div className="ps-2 pe-1 flex-grow-1">
 					<p className="mb-0 fw-bold" style={{fontSize: '14px'}}>{person.name}</p>

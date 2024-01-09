@@ -4,8 +4,8 @@ import { Form } from 'react-bootstrap';
 
 const PastHackathon = () => (
 	<div className="bg-white p-4 my-4 rounded-4" style={{ maxWidth: '600px' }}>
-		<h2 className="fs-5">My Past Hackathon Project</h2>
-		<Form.Select style={{ maxWidth: '300px' }}>
+		<label htmlFor="hackathon" className="fs-5">My Past Hackathon Project</label>
+		<Form.Select id="hackathon" style={{ maxWidth: '300px' }}>
 			{hackathons.map(hackathon => 
 				<option key={uuidv4()} value={hackathon}>
 					{hackathon}

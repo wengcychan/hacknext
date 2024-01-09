@@ -11,14 +11,16 @@ const App = () => {
     <div>
       <Router basename="/hacknext">
         <Navigation />
-        <section className="container">
-          <Routes>
-            <Route path="/" element={<HomePage/>} />
-            <Route path="/event" element={<EventPage/>} />
-            <Route path="business" element={<BusinessPage />} />
-            <Route path="*" element={<NoPage />}/>
-          </Routes>
-        </section>
+        <main>
+          <section className="container">
+            <Routes>
+              <Route path="/" element={<HomePage/>} />
+              <Route path="/event" element={<EventPage/>} />
+              <Route path="business" element={<BusinessPage />} />
+              <Route path="*" element={<NoPage />}/>
+            </Routes>
+          </section>
+        </main>
       </Router>
     </div>
   )

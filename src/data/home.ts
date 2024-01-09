@@ -1,11 +1,11 @@
-import AboutImg from '../images/home/about.png';
-import UserImg from '../images/home/user.png';
-import EthanIconImg from '../images/home/icon1.png';
-import AlexanderIconImg from '../images/home/icon2.png';
-import NoahIconImg from '../images/home/icon3.png';
-import BenjaminIconImg from '../images/home/icon4.png';
-import ScooterFlashImg from '../images/home/ScooterFlash.png';
-import TravelCompanionImg from '../images/home/TravelCompanion.png';
+import AboutImg from '../assets/home/about.png';
+import UserImg from '../assets/home/user.png';
+import EthanIconImg from '../assets/home/icon1.png';
+import AlexanderIconImg from '../assets/home/icon2.png';
+import NoahIconImg from '../assets/home/icon3.png';
+import BenjaminIconImg from '../assets/home/icon4.png';
+import ScooterFlashImg from '../assets/home/ScooterFlash.png';
+import TravelCompanionImg from '../assets/home/TravelCompanion.png';
 import { About, People, Post, User } from '../types';
 
 export const user: User = {

@@ -55,7 +55,7 @@ const Post = () => {
 							<Card.Body>
 								<div className="d-flex align-items-center">
 									<div>
-										<img src={icon.src} alt={icon.alt} width="50px" />
+										<img src={icon.src} alt={icon.alt} width="50px" height="50px"/>
 									</div>
 									<div className="ms-3">
 										<p className="mb-0">
@@ -69,7 +69,7 @@ const Post = () => {
 
 								<div className="my-3">
 									<p><i>{project.description}</i></p>
-									<img src={project.img.src} alt={project.img.alt} className="rounded-2 w-100"/>
+									<img src={project.img.src} alt={project.img.alt} width="100%" height="100%" className="rounded-2"/>
 								</div>
 
 								<div>
@@ -77,9 +77,9 @@ const Post = () => {
 										<div className="d-flex align-items-center">
 											<span className="d-flex align-items-center me-2">
 												{liked ? (
-													<FaHeart style={{ color: 'red' }} />
+													<FaHeart style={{ color: 'red' }} aria-label="Red Heart Icon"/>
 												) : (
-													<FaRegHeart style={{ color: 'grey' }} />
+													<FaRegHeart style={{ color: 'grey' }} aria-label="Grey Heart Icon"/>
 												)}
 											</span>
 											<span>{likes} Likes</span>
@@ -93,7 +93,7 @@ const Post = () => {
 									{comments.map(comment => 
 										<div key={uuidv4()} className="d-flex mb-3">
 											<div>
-												<img src={comment.icon.src} alt={comment.icon.alt} width="50px" />
+												<img src={comment.icon.src} alt={comment.icon.alt} width="50px" height="50px"/>
 											</div>
 											<div className="ms-3 py-2 px-3 rounded-3" style={{ backgroundColor: '#f1f1f1' }}>
 												<p className="mb-0 fw-bold">{comment.name}</p>
@@ -103,11 +103,12 @@ const Post = () => {
 									)}
 
 									<Form className="mt-4" onSubmit={(event) => handleComment(event, id)}>
-										<Form.Group className="mb-2" controlId="formComment">
+										<Form.Group className="mb-2">
 											<Row className="align-items-center no-gutters">
 												<Col className="pe-0">
 													<Form.Control
 														type="text"
+														id={'comment on ' + project.description}
 														value={comment}
 														onChange={({target}) => setComment(target.value)}
 														placeholder="Add your comments here..."
@@ -116,7 +117,7 @@ const Post = () => {
 													/>
 												</Col>
 												<Col xs="auto" className="ps-0">
-													<Button type="submit">
+													<Button type="submit" aria-label="Send">
 														<IoIosSend/>
 													</Button>
 												</Col>

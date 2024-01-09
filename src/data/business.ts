@@ -1,11 +1,11 @@
 import { Event } from "../types";
-import NLSImg from "../images/partner/NLS.png"
-import FinEstImg from "../images/partner/FinEst.png"
-import GeoforumImg from "../images/partner/Geoforum.png"
-import LIHImg from "../images/partner/LIH.png"
-import BusinessFinlandImg from "../images/funding/BusinessFinland.png"
-import ArcticBusinessImg from "../images/funding/ArcticBusiness.png"
-import HorizonEuropeImg from "../images/funding/HorizonEurope.png"
+import NLSImg from "../assets/partner/NLS.png"
+import FinEstImg from "../assets/partner/FinEst.png"
+import GeoforumImg from "../assets/partner/Geoforum.png"
+import LIHImg from "../assets/partner/LIH.png"
+import BusinessFinlandImg from "../assets/funding/BusinessFinland.png"
+import ArcticBusinessImg from "../assets/funding/ArcticBusiness.png"
+import HorizonEuropeImg from "../assets/funding/HorizonEurope.png"
 
 export const hackathons: string[] = ['Community360'];
 
